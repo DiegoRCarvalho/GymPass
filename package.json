@@ -1,0 +1,12 @@
+{
+  "name": "gympass",
+  "version": "1.0.0",
+  "description": "Aplicativo que permite pessoas fazerem check-in em acadêmias cadastradas no aplicativo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
