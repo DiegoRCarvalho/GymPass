@@ -7,7 +7,7 @@ Aplicativo que permite pessoas fazerem check-in em acadêmias cadastradas no apl
 - clonar o repositório;
 - criar o arquivo <span style="color:#3fabb5">**.env**</span>, baseado no <span style="color:#3fabb5">**.env.example**</span>;
 - rodar o comando ```npm i```;
-- rodar o comando ```docker compose up -d```
+- rodar o comando ```docker compose up -d``` para subir o banco. E caso queira pará-lo utilize ```docker compose stop```.
 - rodar o comando ```npx prisma migrate dev```
 
 
