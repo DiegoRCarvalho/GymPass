@@ -1,6 +1,6 @@
 {
   "name": "gympass",
-  "version": "1.1.7",
+  "version": "1.2.13",
   "description": "Aplicativo que permite pessoas fazerem check-in em acadêmias cadastradas no aplicativo.",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@rocketseat/eslint-config": "1.2.0",
+    "@types/bcryptjs": "2.4.2",
     "@types/node": "18.14.1",
     "eslint": "8.34.0",
     "git-commit-msg-linter": "5.0.4",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "@prisma/client": "4.16.1",
+    "bcryptjs": "2.4.3",
     "dotenv": "16.0.3",
     "fastify": "4.13.0",
     "zod": "3.20.6"
