@@ -21,6 +21,18 @@ describe('Register Use Case', () => {
     expect(isPasswordCorrectlyHashed).toBe(true)
   })
 
+  it('should be able to register', async () => {
+    const usersRepository = new InMemoryUserRepository()
+    const registerUseCase = new RegisterUseCase(usersRepository)
+
+    const { user } = await registerUseCase.execute({
+      name: 'Teste01',
+      email: 'teste01@email.com',
+      password: '123456',
+    })
+    expect(user.id).toEqual(expect.any(String))
+  })
+
   it('should not be able register with same email twice', async () => {
     const usersRepository = new InMemoryUserRepository()
     const registerUseCase = new RegisterUseCase(usersRepository)
