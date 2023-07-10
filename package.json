@@ -1,6 +1,6 @@
 {
   "name": "gympass",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "Aplicativo que permite pessoas fazerem check-in em acadêmias cadastradas no aplicativo.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "build": "tsup src --out-dir build",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@types/bcryptjs": "2.4.2",
     "@types/node": "18.14.1",
     "@vitest/coverage-c8": "0.28.5",
+    "@vitest/ui": "0.28.5",
     "eslint": "8.34.0",
     "git-commit-msg-linter": "5.0.4",
     "prisma": "4.16.1",
